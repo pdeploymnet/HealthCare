@@ -20,7 +20,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <link href="css/bootstrap-icons.css" rel="stylesheet">
-    <link href="css/about.css" rel="stylesheet">
 
     <link href="css/templatemo-topic-listing.css" rel="stylesheet">
     <style>
@@ -34,9 +33,10 @@
             }
         }
 
-        .card img {
-            width: 300;
-            height: 300;
+        .custom-block img {
+            border-radius: 10px;
+            width: 352px;
+            height: 343px;
         }
     </style>
 
@@ -65,11 +65,11 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-lg-5 me-lg-auto">
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            <a class="nav-link" href="index.html">Home</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_2">Browse Videos</a>
+                            <a class="nav-link " href="index.html">Browse Videos</a>
                         </li>
 
                         <!-- <li class="nav-item">
@@ -77,7 +77,7 @@
                             </li> -->
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_3">References</a>
+                            <a class="nav-link " href="index.html">References</a>
                         </li>
 
                         <li class="nav-item">
@@ -85,7 +85,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4">Contact</a>
+                            <a class="nav-link " href="index.html">Contact</a>
                         </li>
 
                         <!-- <li class="nav-item dropdown">
@@ -106,77 +106,106 @@
                 </div>
             </div>
         </nav>
-    </main>
 
-    <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+
+        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-8 col-12 mx-auto">
+                        <h1 class="text-white text-center">HealthCare Connections</h1>
+
+                        <h6 class="text-center">Nurturing Ethics and Fostering Corporate Responsibility in Healthcare
+                        </h6>
+
+                        <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
+                            <div class="input-group input-group-lg">
+                                <span class="input-group-text bi-search" id="basic-addon1">
+
+                                </span>
+
+                                <input name="keyword" type="search" class="form-control" id="keyword"
+                                    placeholder="Doctors, Facilities, Staff..." aria-label="Search">
+
+                                <button type="submit" class="form-control">Search</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="container" style="margin: 5rem 0 2rem 1rem;    max-width: 1584px;">
+            <div class="row">
+
+                <div class="col-12 text-center">
+                    <h2 class="mb-4">Meet Our Team</h1>
+                </div>
+
+            </div>
+        </div>
+
+
         <div class="container">
             <div class="row">
 
-                <div class="col-lg-8 col-12 mx-auto">
-                    <h1 class="text-white text-center">HealthCare Connections</h1>
+                <div class="col-12">
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="design-tab-pane" role="tabpanel"
+                            aria-labelledby="design-tab" tabindex="0">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                    <div class="custom-block bg-white shadow-lg">
+                                        <a href="topics-detail.html">
+                                            <div class="d-flex">
 
-                    <h6 class="text-center">Nurturing Ethics and Fostering Corporate Responsibility in Healthcare
-                    </h6>
+                                                <span class="badge bg-design rounded-pill ms-auto"
+                                                    style="width: 152px;margin-bottom: 9px;padding: 5px;">Amanpreet
+                                                    Singh Jassal</span>
+                                            </div>
 
-                    <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
-                        <div class="input-group input-group-lg">
-                            <span class="input-group-text bi-search" id="basic-addon1">
+                                            <img class="card-img" src="teamImg/AmanpreetSinghJassal.jpg">
+                                        </a>
+                                    </div>
+                                </div>
 
-                            </span>
+                                <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                    <div class="custom-block bg-white shadow-lg">
+                                        <a href="topics-detail.html">
+                                            <div class="d-flex">
+                                                <span class="badge bg-design rounded-pill ms-auto"
+                                                    style="width: 152px;margin-bottom: 9px;padding: 5px;">Mahek
+                                                    Nanda</span>
+                                            </div>
 
-                            <input name="keyword" type="search" class="form-control" id="keyword"
-                                placeholder="Doctors, Facilities, Staff..." aria-label="Search">
+                                            <img class="card-img" src="teamImg/MahekNanda .jpg">
+                                        </a>
+                                    </div>
+                                </div>
 
-                            <button type="submit" class="form-control">Search</button>
+                                <div class="col-lg-4 col-md-6 col-12">
+                                    <div class="custom-block bg-white shadow-lg">
+                                        <a href="topics-detail.html">
+                                            <div class="d-flex">
+                                                <span class="badge bg-design rounded-pill ms-auto"
+                                                    style="width: 152px;margin-bottom: 9px;padding: 5px;">Robin Singh
+                                                    Nannar</span>
+                                            </div>
+                                            <img class="card-img" src="teamImg/RobinSinghNannar.jpg">
+
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </form>
+                    </div>
                 </div>
-
             </div>
         </div>
-    </section>
 
+    </main>
 
-    <div class="responsive-container-block outer-container">
-        <div class="responsive-container-block inner-container">
-            <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-4 wk-ipadp-4 headings-container">
-                <h2>Meet Our Team</h2>
-            </div>
-            <div class="responsive-cell-block wk-desk-8 wk-ipadp-8 wk-tab-12 wk-mobile-12 team-members-container">
-                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-mobile-12 wk-tab-12 card-container">
-                    <div class="card" style="border:none">
-                        <img class="card-img" src="teamImg/AmanpreetSinghJassal.jpg">
-                        <p class="text-blk name">
-                            Amanpreet Singh Jassal
-                        </p>
-                        <p class="text-blk position">
-                        </p>
-                    </div>
-                </div>
-                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-mobile-12 wk-tab-12 card-container">
-                    <div class="card" style="border:none">
-                        <img class="card-img" src="teamImg/MahekNanda .jpg">
-                        <p class="text-blk name">
-                            Mahek Nanda
-                        </p>
-                        <p class="text-blk position">
-                        </p>
-                    </div>
-                </div>
-                <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-mobile-12 wk-tab-12 card-container">
-                    <div class="card" style="border:none">
-                        <img class="card-img" src="teamImg/RobinSinghNannar.jpg">
-                        <p class="text-blk name">
-                            Robin Singh Nannar
-                        </p>
-                        <p class="text-blk position">
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
 
 
     <footer class="site-footer section-padding">
@@ -262,58 +291,8 @@
     <script src="js/click-scroll.js"></script>
     <script src="js/custom.js"></script>
 
-    <script>
-        var swiper = new Swiper(".team-swiper", {
-            navigation: {
-                nextEl: ".swiper-button-nexts",
-                prevEl: ".swiper-button-prevs",
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            loop: true,
-            slidesPerView: 1,
-            spaceBetween: 10,
-            // Responsive breakpoints
-            breakpoints: {
-                250: {
-                    slidesPerView: 1.2,
-                    spaceBetween: 80
-                },
-                // when window width is &gt;= 320px
-                300: {
-                    slidesPerView: 1.2,
-                    spaceBetween: 0
-                },
-                // when window width is &gt;= 480px
-                400: {
-                    slidesPerView: 1.5,
-                    spaceBetween: 20
-                },
-                // when window width is &gt;= 640px
-                640: {
-                    slidesPerView: 2,
-                    spaceBetween: 40
-                },
-                840: {
-                    slidesPerView: 3,
-                    spaceBetween: 40
-                },
-                1150: {
-                    slidesPerView: 4,
-                    spaceBetween: 40
-                }
-            }
-        });
-    </script>
 
 
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/click-scroll.js"></script>
-    <script src="js/custom.js"></script>
 
 </body>
 
